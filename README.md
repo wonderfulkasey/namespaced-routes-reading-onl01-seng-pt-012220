@@ -19,8 +19,6 @@ with an `index` action and corresponding view.
 We can't actually browse to it yet because we need to set up a route. Let's add it to `routes.rb`:
 
 ```ruby
-# config/routes.rb
-
 get '/stats', to: 'stats#index'
 ```
 
